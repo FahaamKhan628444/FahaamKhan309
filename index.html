@@ -1,0 +1,208 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Google Search Engine</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+
+<body>
+
+  <div class="header">
+
+    <div class="header__left">
+
+
+
+      <a href="https://mail.google.com/" target="_blank" id="gmail" style="text-decoration:none">
+        Gmail
+        <img src="Gmail-Logo.jpg" alt="www.google.com" onmouseover="gmail()" id="gmail" height="13px">
+      </a>
+
+      <a href="https://www.youtube.com/" target="_blank" id="youtube" style="text-decoration: none;">
+        Youtube
+
+        <img src="logo1.jpg" alt="www.google.com" onclick="Youtube()" id="youtube" height="12px ">
+      </a>
+
+      <a href="https://www.google.co.in/maps" target="_blank" id="Maps" style="text-decoration: none;">
+        Maps
+
+        <img src="logo2.jpg" alt="www.google.com" onclick="Maps()" id="Maps" height="12px ">
+      </a>
+
+    </div>
+  </div>
+  <div>
+  <input type="search" placeholder="Search Google or type URL" id="out">
+  <div class="sug">
+    <!-- suggestions -->
+  </div>
+  <button id="btn1" onclick="redirect1()"> Search </button>
+  </div>
+  <span class="material-symbols-outlined" id="forward">
+    arrow_forward
+  </span>
+  <span class="material-symbols-outlined" id="back">
+    arrow_back
+  </span>
+  <span class="material-symbols-outlined" id="refresh">
+    refresh
+  </span>
+
+  <span class="material-symbols-outlined" id="apps">
+    apps
+    </span>
+  <hr>
+
+  <!-- <div class="side-symbols">
+
+    <a href="https://support.google.com/accounts/answer/3118621" style="text-decoration: none;" target="_blank">
+      <span class="material-symbols-outlined" id="set" target="_blank">
+        settings
+      </span>
+
+  </a>
+
+    <a href="https://account.google.com">
+      <span class="material-symbols-outlined" id="log" target="_blank">
+        login
+        </span>
+    </a>
+  </div> -->
+
+  <div class="mainBody">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"
+      id="googlelogo">
+    <div class="search">
+      <input type="search" placeholder="Search Google or type a URL" id="in">
+      <div class="sug">
+        <!-- suggestions -->
+      </div>
+      <button id="btn" onclick="redirect()"> Search </button>
+
+
+
+
+
+    </div>
+    <a href="https://www.msn.com/en-us/weather/forecast/in-" target="_blank">
+      <img src="R.png" alt="" id="weather">
+    </a>
+    <button id="login">login</button>
+    <img src="OIP1.jpeg" alt="" id="userimg">
+
+    <a href="https://web.whatsapp.com">
+    <img src="logo4.jpg" alt="www.google.com"  hieght="4px" width="40px" class="wpimg"></a>
+      <a href="https://web.whatsapp.com" target="_blank" style="text-decoration: none;" class="wplink">Whatsapp</a>
+  
+
+     <a href="https://www.msn.com/en-in/weather">
+      <img src="logo5.jpg" alt="www.google.com" height="7px" width="40px" class="fbimg"></a>
+      <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;" class="fblink">Facebook</a>
+
+
+    <a href="https://www.gktoday.in/current-affairs">
+      <img src="logo10.jpg" alt="www.google.com" height="7px" width="40px" class="caimg"></a>
+      <a href="https://www.gktoday.in/current-affairs" target="_main" style="text-decoration: none;"
+        class="calink">News</a>
+
+
+
+
+    <marquee behavior="" direction="slide" id="mrq"><b>Breaking News: Chitkara University ranked among the top Private
+        Universities in India</b> </marquee>
+
+
+    <div class="container">
+      <div class="box"><b><u>Politics News</u></b>
+        <ul>
+          <li>DK Shivakumar sworn in as Karnataka's deputy chief minister</li>
+          <li>Five gurrantees will become law after 1st cabinet meeting: Rahul Gandhi</li>
+          <li>Nitish Kumar to meet Kharge day after meeting Kejriwal</li>
+
+        </ul>
+
+      </div>
+      <div class="box"><b><u>Sports News</u></b>
+        <ul>
+          <li>Chennai Super Kings wins the IPL 2023</li>
+          <li>"A Gift From My Side...": MS Dhoni's Huge Update On Retirement After CSK's IPL 2023 Title Win</li>
+          <li>Kylian Mbappe Named Best French Player For Fourth Time In Row</li>
+        </ul>
+      </div>
+      <div class="box"><b><u>Business, Economy</u></b>
+        <ul>
+          <li>India economy signals resilience even as exports dim outlook</li>
+          <li>Indian economy likely to grow at 6% in FY24: Economists</li>
+          <li>India Economy may rise in year 2024:Finance Minister </li>
+        </ul>
+      </div>
+      <div class="box"><b><u>International News</u></b>
+        <ul>
+          <li>Pep Guardiola, not just a manager or tactician, but a footballing visionary</li>
+          <li>Mette Frederiksen, the face of the anti-immigration left in Denmark</li>
+        </ul>
+      </div>
+      <div class="box"><b><u>Latest Currency Rates</u></b>
+        <ul>
+          <li>1 rup INR= 22.65 Riyal</li>
+          <li>1 rup INR=22.68 Dhram</li>
+          <li>1 rup INR= 82.80 Dollar</li>
+          <li>1 rup INR= 89.50 Euro</li>
+          <li>1 rup INR= 65.23 CAD Dollar</li>
+        </ul>
+      </div>
+      <!-- <div class="container-lg">
+            <button id="left" onclick="decrease()"><span>&10094</span></button>
+            <var img src="th.jpeg" alt="" srcset="" >
+            <var img src="th (1).jpeg" alt="" srcset="" >
+            <var img src="th (2).jpeg" alt="" srcset="" >
+            <var img src="th (3).jpeg" alt="" srcset="" >
+            <button id="right" onclick="increase()"><span>&10095</span></button>
+            </div> -->
+
+
+
+
+
+      <footer>
+        <h4>All policies and rigts reserved @2023</h4>
+      </footer>
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
